@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 public class Scoreboard {
     private final TicketService ticketService;
 
-    @Autowired
     public Scoreboard(TicketService ticketService) {
         this.ticketService = ticketService;
     }
